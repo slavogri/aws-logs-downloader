@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
     # ---- Overwrite the configured values (dev purpose only) ----
     # args.profile = "sandbox"
-    # args.region = "eu-north-1"
+    # args.region = "eu-central-1"
     # args.end_time = "2021-09-14 12:40:30 +00:00"
     # args.interval = 4 * 60  # in minutes
     # args.log_group = "another-log-group"
