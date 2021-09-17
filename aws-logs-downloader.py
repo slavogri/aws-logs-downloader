@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(prog='aws-logs-downloader', description=
                                     'Prerequisite: You need to be logged in to your aws profile. '
                                     'The Script itself is going to use on behalf of you the AWS command line APIs: '
                                     '"aws logs describe-log-streams" and "aws logs get-log-events" '
-                                    'Usaeg example: aws-logs-downloader -g /ecs/my-cluster-test-my-app -t "2021-09-04 05:59:50 +00:00" -i 60'
+                                    'Usage example: python aws-logs-downloader -g /ecs/my-cluster-test-my-app -t "2021-09-04 05:59:50 +00:00" -i 60'
                                  )
 
 def is_log_stream_in_range(stream_def, from_date_time, till_date_time):
